@@ -13,7 +13,7 @@ output: "shh... the kittens are sleeping"
 Hint: endsWith and slice
 */
 
-const whisper = str => 'shh... ' + str.toLowerCase().replace(/.$/, '!')
+const whisper = str => 'shh... ' + str.toLowerCase().replace(/!$/, '')
 
 console.log(whisper('PLEASE STOP SHOUTING.'))
 console.log(whisper("MA'AM, this is a Wendy's!"))
