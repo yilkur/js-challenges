@@ -1,0 +1,26 @@
+{
+  "name": "js-challenges",
+  "version": "1.0.0",
+  "description": "js challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yilkur/js-challenges.git"
+  },
+  "keywords": [
+    "javascript",
+    "challenges"
+  ],
+  "author": "yilkur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yilkur/js-challenges/issues"
+  },
+  "homepage": "https://github.com/yilkur/js-challenges#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
